@@ -10,3 +10,6 @@ In MSD $<\Delta r(t)^2>$ and self-intermediate scattering function $F_s(q,t)$, w
 
 In linux, just put "./mearsure_compile.sh". If there is a problem or error message, check the nvcc driver and header file directories.
 
+## With MPI
+
+Must check the directory of MPI header file. and change it in compile file.
