@@ -3,6 +3,8 @@
 This code is written by CUDA and C++.
 Your environment is in Linux. to compile, type "./measure_compile.sh".
 
+I use the Verlet list method. If you want another nearest list method, you change that in the list update.
+
 In this code, I measured the center of mass displacement(COM displacement), mean square displacement, and self-intermediate scattering function.
 In MSD $<\Delta r(t)^2>$ and self-intermediate scattering function $F_s(q,t)$, we must consider COM displacement. so, I did that.
 
