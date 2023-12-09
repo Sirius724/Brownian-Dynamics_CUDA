@@ -16,5 +16,6 @@ In linux, just put "./mearsure_compile.sh". If there is a problem or error messa
 
 You must check the directory of the MPI header file. and change it in the  compiled file.
 Before compiling, first, in Linux, you check MPI library directory -> 'mpic++ -showme' -> '-I (address) -L (address) -lmpi' copy and paste in the compile file.
+
 then, put "./mearsure_compile.sh" and execute the 'mpiexe.sh' also you must change the node number in compile file.
 
